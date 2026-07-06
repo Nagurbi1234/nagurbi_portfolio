@@ -1,14 +1,15 @@
 import { TypeAnimation } from "react-type-animation";
+import profile from "../assets/images/profile.png";
 
 function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center bg-[#0F172A] text-white px-6"
+      className="min-h-screen flex items-center bg-[#0F172A] text-white px-6 pt-20"
     >
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-        {/* Left Side */}
+        {/* Left Section */}
         <div>
 
           <h3 className="text-cyan-400 text-xl mb-2">
@@ -35,31 +36,36 @@ function Hero() {
           />
 
           <p className="mt-6 text-gray-300 leading-8 max-w-xl">
-            Passionate React & MERN Stack developer who enjoys
-            building modern, responsive and user-friendly web
-            applications.
+            Passionate MERN Stack and React Developer with a strong interest
+            in building responsive, modern, and user-friendly web
+            applications. I enjoy solving real-world problems and continuously
+            improving my skills through projects.
           </p>
 
-          <div className="mt-8 flex gap-4">
-            <button className="bg-cyan-500 px-6 py-3 rounded-lg font-semibold hover:bg-cyan-600 transition">
-              Hire Me
+          <div className="mt-8 flex flex-wrap gap-4">
+
+            <button className="bg-cyan-500 hover:bg-cyan-600 text-black font-semibold px-6 py-3 rounded-lg transition duration-300">
+              View Projects
             </button>
 
-            <button className="border border-cyan-500 px-6 py-3 rounded-lg hover:bg-cyan-500 hover:text-black transition">
+            <button className="border border-cyan-500 hover:bg-cyan-500 hover:text-black px-6 py-3 rounded-lg transition duration-300">
               Download Resume
             </button>
+
           </div>
 
         </div>
 
-        {/* Right Side */}
+        {/* Right Section */}
         <div className="flex justify-center">
 
-          <div className="w-80 h-80 rounded-full bg-cyan-500/20 border-4 border-cyan-500 flex items-center justify-center">
+          <div className="w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-cyan-400 shadow-[0_0_40px_rgba(34,211,238,0.5)]">
 
-            <span className="text-8xl">
-              👨‍💻
-            </span>
+            <img
+              src={profile}
+              alt="Nagurbi"
+              className="w-full h-full object-cover"
+            />
 
           </div>
 
