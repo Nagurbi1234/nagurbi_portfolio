@@ -21,11 +21,11 @@ function About() {
 
             <p className="text-gray-300 leading-8">
               I'm <span className="text-cyan-400 font-semibold">Nagurbi Bayyavarapu</span>,
-              a passionate MERN Stack and React Developer with a strong interest
+              a passionate MERN Stack and Full Stack Developer with a strong interest
               in building responsive, user-friendly web applications.
               I enjoy solving real-world problems through technology and
               continuously improving my frontend and backend development skills.
-              I am currently pursuing my Bachelor's degree in Artificial
+              I have recently completed my Bachelor's degree in Artificial
               Intelligence and Data Science while actively building real-world
               projects using the MERN Stack.
             </p>
@@ -54,7 +54,7 @@ function About() {
               </p>
 
               <p className="text-gray-400">
-                Expected Graduation: 2026
+                Graduation Year: 2026
               </p>
             </div>
 

@@ -22,6 +22,8 @@ function Hero() {
 
           <TypeAnimation
             sequence={[
+              "Full Stack Developer",
+              2000,
               "MERN Stack Developer",
               2000,
               "React Developer",
@@ -36,7 +38,7 @@ function Hero() {
           />
 
           <p className="mt-6 text-gray-300 leading-8 max-w-xl">
-            Passionate MERN Stack and React Developer with a strong interest
+            Passionate Full Stack and MERN StackDeveloper with a strong interest
             in building responsive, modern, and user-friendly web
             applications. I enjoy solving real-world problems and continuously
             improving my skills through projects.

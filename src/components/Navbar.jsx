@@ -5,7 +5,7 @@ function Navbar() {
 
         {/* Logo */}
         <h1 className="text-2xl font-bold text-cyan-400">
-          Nagurbi
+          Nagurbi Bayyavarapu
         </h1>
 
         {/* Navigation Links */}
