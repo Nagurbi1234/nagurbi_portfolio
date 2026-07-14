@@ -4,6 +4,7 @@ function Training() {
   return (
     <section
       id="training"
+       data-aos="fade-left"
       className="bg-[#0F172A] text-white py-20 px-6"
     >
       <div className="max-w-6xl mx-auto">

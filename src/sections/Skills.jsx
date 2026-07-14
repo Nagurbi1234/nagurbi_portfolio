@@ -36,6 +36,7 @@ function Skills() {
   return (
     <section
       id="skills"
+       data-aos="zoom-in"
       className="bg-[#0F172A] text-white py-20 px-6"
     >
       <div className="max-w-7xl mx-auto">

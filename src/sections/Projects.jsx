@@ -67,7 +67,7 @@ const projects = [
       "A responsive notes application that allows users to create, edit, search and manage notes efficiently.",
     technologies: ["HTML", "CSS", "JavaScript"],
     github: "",
-    live: "https://notes-app-theta-three-52.vercel.app/",
+    live: "https://notesapp-iota-five.vercel.app/",
     category: "📒 Mini Project",
     status: "Completed",
   },
@@ -77,6 +77,7 @@ function Projects() {
   return (
     <section
       id="projects"
+      data-aos="fade-up"
       className="bg-[#0F172A] text-white py-20 px-6"
     >
       <div className="max-w-7xl mx-auto">
